@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:9001/"
+const API_URL = "http://backend/"
 function ajax_get(url, callback) {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
